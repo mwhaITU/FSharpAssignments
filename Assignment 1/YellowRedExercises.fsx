@@ -30,7 +30,33 @@ theLetterA 1
 let add newPos (cv :char * int) (word : int -> char * int) = 
     fun pos -> 
     if newPos = pos then cv
-    else word 0
+    else word pos
 let theLettersAB = add 1 ('B', 3) theLetterA;;
 theLettersAB 1
 
+// 1.13
+let theLettersHELLO = 
+    empty ('H', 4)
+    |> add 1 ('E', 1)
+    |> add 2 ('L', 1)
+    |> add 3 ('L', 1)
+    |> add 4 ('O', 1) 
+theLettersHELLO 4
+
+// 1.14
+let singleLetterScore (word : int -> char * int) pos = 
+    let letter, pointValue = word pos
+    pointValue
+    
+
+let doubleLetterScore (word : int -> char * int) pos = 
+    let letter, pointValue = word pos
+    pointValue * 2
+
+let TripleLetterScore (word : int -> char * int) pos = 
+    let letter, pointValue = word pos
+    pointValue * 3
+
+singleLetterScore theLettersHELLO 4
+doubleLetterScore theLettersHELLO 4
+TripleLetterScore theLettersHELLO 4
