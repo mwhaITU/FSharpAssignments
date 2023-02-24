@@ -167,12 +167,11 @@ boolEval (IsDigit (CV (V "x"))) hello (Map.ofList [("x", 4)])
 
 // 3.6
 let isConsonant (c : cExp) = 
-    if "bcdfgjklmnpqstvxzhrwy".Contains(System.Char.ToLower(charEval c [] Map.empty)) then TT
-    else FF
+    Not (IsVowel c)
 
 boolEval (isConsonant (C 'H')) [] Map.empty
-//boolEval (isConsonant (CV (V "x"))) hello (Map.ofList [("x", 0)])
-// boolEval (isConsonant (CV (V "x"))) hello (Map.ofList [("x", 1)])
+boolEval (isConsonant (CV (V "x"))) hello (Map.ofList [("x", 0)])
+boolEval (isConsonant (CV (V "x"))) hello (Map.ofList [("x", 1)])
 
 // 3.7 
 type stmnt =
@@ -240,6 +239,9 @@ let containsNumbers =
         Ass ("i", WL)),
         Ass ("i", V "i" .+. N 1)))))
 
+singleLetterScore hello 0 0
+doubleLetterScore hello 0 0
+tripleLetterScore hello 0 0
 containsNumbers hello 5 50
 containsNumbers (('0', 100)::hello) 5 50
 containsNumbers (hello @ [('0', 100)]) 5 50
