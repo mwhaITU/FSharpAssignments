@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "PF3vrjuRrcHM41ZpLn2WjsYAtO6cp1S2C6+k6rG8IQQylk2RQxocB1U18hOx6tJ9z+XChV5WmibWgln2pvESZQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mar20\\Desktop\\F#\\FSharpAssignments\\Assignment 4\\FSharpAssignment4\\FSharpAssignment4.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mar20\\.nuget\\packages\\fsharp.core\\7.0.0\\fsharp.core.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
