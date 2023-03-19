@@ -4,6 +4,8 @@
     <TargetFramework>net7.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Dict.fsi" />
+    <Compile Include="Dict.fs" />
     <Compile Include="MultiSet.fsi" />
     <Compile Include="MultiSet.fs" />
   </ItemGroup>
