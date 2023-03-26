@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mar20\\Desktop\\F#\\FSharpAssignments\\Assignment 4\\FSharpAssignment4\\FSharpAssignment4.fsproj": {}
+    "c:\\Users\\mar20\\Desktop\\F#\\FSharpAssignments\\Assignment 4\\FSharpAssignment4\\FSharpAssignment4.fsproj": {}
   },
   "projects": {
-    "C:\\Users\\mar20\\Desktop\\F#\\FSharpAssignments\\Assignment 4\\FSharpAssignment4\\FSharpAssignment4.fsproj": {
+    "c:\\Users\\mar20\\Desktop\\F#\\FSharpAssignments\\Assignment 4\\FSharpAssignment4\\FSharpAssignment4.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mar20\\Desktop\\F#\\FSharpAssignments\\Assignment 4\\FSharpAssignment4\\FSharpAssignment4.fsproj",
+        "projectUniqueName": "c:\\Users\\mar20\\Desktop\\F#\\FSharpAssignments\\Assignment 4\\FSharpAssignment4\\FSharpAssignment4.fsproj",
         "projectName": "FSharpAssignment4",
-        "projectPath": "C:\\Users\\mar20\\Desktop\\F#\\FSharpAssignments\\Assignment 4\\FSharpAssignment4\\FSharpAssignment4.fsproj",
+        "projectPath": "c:\\Users\\mar20\\Desktop\\F#\\FSharpAssignments\\Assignment 4\\FSharpAssignment4\\FSharpAssignment4.fsproj",
         "packagesPath": "C:\\Users\\mar20\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mar20\\Desktop\\F#\\FSharpAssignments\\Assignment 4\\FSharpAssignment4\\obj\\",
+        "outputPath": "c:\\Users\\mar20\\Desktop\\F#\\FSharpAssignments\\Assignment 4\\FSharpAssignment4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
