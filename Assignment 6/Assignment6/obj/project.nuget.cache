@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Bk/pGm1r2C9sKQTS8mjz04/VEzQba7TeLxFETZc7qtQeh5H9MEHBQ9bzxSdOu7+ihkGBlxZZ21U1cUWb0EX/DQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\EG\\Desktop\\F#\\FSharpAssignments\\Assignment 6\\Assignment6\\Assignment6.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\EG\\.nuget\\packages\\fsharp.core\\7.0.0\\fsharp.core.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
