@@ -131,11 +131,11 @@ and cExp =
 
 type state = Map<string, int>
 
-(* let rec arithEvalSimple (a : aExp) (w : word) (s : state) =
+let rec arithEvalSimple (a : aExp) (w : word) (s : state) =
     match a with
     | N n -> n
     | V v -> 
-        match s.TryFind v with 
+        match Map.tryFind v s with 
         | None -> 0
         | Some x -> x
     | WL -> w.Length
@@ -146,11 +146,38 @@ type state = Map<string, int>
         arithEvalSimple a w s - arithEvalSimple b w s
     | Mul(a, b) ->
         arithEvalSimple a w s * arithEvalSimple b w s
-    | CharToInt c -> charEvalSimple c w s
+    | CharToInt c -> int (charEvalSimple c w s)
     
 and charEvalSimple (c : cExp) (w : word) (s : state) =
     match c with
     | C c -> c
+    | CV c -> fst w.[arithEvalSimple c w s]
     | ToUpper c -> System.Char.ToUpper(charEvalSimple c w s)
     | ToLower c -> System.Char.ToLower(charEvalSimple c w s)
-    | CV c -> fst w.[arithEvalSimple c w s] *)
+    | IntToChar a -> char (arithEvalSimple a w s)
+
+// 5.8
+let rec arithEvalTail (a : aExp) (w : word) (s : state) (ct) =
+    match a with
+    | N n -> ct n
+    | V v ->
+        match Map.tryFind v s with
+        | None -> ct 0
+        | Some x -> ct x
+    | WL -> ct w.Length
+    | PV a -> arithEvalTail a w s (fun v -> ct (snd w.[v]))
+    | Add(a, b) -> arithEvalTail a w s (fun v1 -> arithEvalTail b w s (fun v2 -> ct (v1 + v2)))
+    | Sub(a, b) -> arithEvalTail a w s (fun v1 -> arithEvalTail b w s (fun v2 -> ct (v1 - v2)))
+    | Mul(a, b) -> arithEvalTail a w s (fun v1 -> arithEvalTail b w s (fun v2 -> ct (v1 * v2)))
+    | CharToInt c -> charEvalTail c w s (fun v -> ct (int (v)))
+
+and charEvalTail (c : cExp) (w : word) (s : state) (ct) =
+    match c with
+    | C c -> ct c
+    | CV a -> arithEvalTail a w s (fun v -> ct (fst w.[v]))
+    | ToUpper c -> charEvalTail c w s (fun v -> ct (System.Char.ToUpper(v)))
+    | ToLower c -> charEvalTail c w s (fun v -> ct (System.Char.ToLower(v)))
+    | IntToChar a -> arithEvalTail a w s (fun v -> ct (char (v)))
+
+let arithEval a w s = arithEvalTail a w s id
+let charEval c w s = charEvalTail c w s id
