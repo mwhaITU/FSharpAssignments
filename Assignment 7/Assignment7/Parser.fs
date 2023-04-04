@@ -35,18 +35,26 @@
     let pdo       = pstring "do"
     let pdeclare  = pstring "declare"
 
-    let whitespaceChar = pstring "not implemented"
-    let pletter        = pstring "not implemented"
-    let palphanumeric  = pstring "not implemented"
+    // 7.2
 
-    let spaces         = pstring "not implemented"
-    let spaces1        = pstring "not implemented"
+    let whitespaceChar = satisfy (fun c -> System.Char.IsWhiteSpace c)
+    let pletter = satisfy (fun c -> System.Char.IsLetter c)
+    let palphanumeric  = satisfy (fun c -> System.Char.IsLetterOrDigit c)
 
-    let (.>*>.) _ _ = failwith "not implemented"
-    let (.>*>) _ _  = failwith "not implemented"
-    let (>*>.) _ _  = failwith "not implemented"
+    let spaces         = many whitespaceChar
+    let spaces1        = many1 whitespaceChar
 
-    let parenthesise p = p // incorrect (not implemented)
+    // 7.3
+
+    let (.>*>.) p1 p2 = p1 .>> spaces .>>. p2
+    let (.>*>) p1 p2  =  p1 .>> spaces .>> p2
+    let (>*>.) p1 p2  = p1 >>. spaces >>. p2
+
+    // 7.4
+
+    let parenthesise p = pchar '(' >*>. p .>*> pchar ')'
+
+    let curlybrackets p = pchar '{' >*>. p .>*> pchar '}'
 
     let pid = pstring "not implemented"
 
