@@ -1,16 +1,17 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "cz+jReKdf8x8Aq+6qeoT0Zrn+KiYqGwTsk6z7MjOi5m3ZqY2L5U46AQn68q4uw40AUOi6whM7H3Hi0z619pBpg==",
+  "dgSpecHash": "NuZdT3dBlxiugFfBVT/+rJF4SeWUbXqKGXn2EmzJ6M8cFuLT166H7JgQ0SUp7jAE/cDIcArzAxO2t4BnAxm7yA==",
   "success": true,
   "projectFilePath": "c:\\Users\\mar20\\Desktop\\F#\\FSharpAssignments\\Assignment 4\\FSharpAssignment4\\FSharpAssignment4.fsproj",
-=======
-  "dgSpecHash": "cu5c7CIPlnT03wgPhv5WQrxbYPA6hkzCRoR2lqyaYC+inwjgyi9YEItNMqgN+BRr8/2dMPHGZMbbzfGOPTXTpA==",
-  "success": true,
-  "projectFilePath": "c:\\Users\\EG\\Desktop\\F#\\FSharpAssignments\\Assignment 4\\FSharpAssignment4\\FSharpAssignment4.fsproj",
->>>>>>> 7e23ee371ae34203f2e8c58a05758d5f2c16f322
   "expectedPackageFiles": [
-    "C:\\Users\\EG\\.nuget\\packages\\fsharp.core\\7.0.0\\fsharp.core.7.0.0.nupkg.sha512"
+    "C:\\Users\\mar20\\.nuget\\packages\\fsharp.core\\7.0.0\\fsharp.core.7.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file c:\\Users\\mar20\\Desktop\\F#\\FSharpAssignments\\Assignment 4\\FSharpAssignment4\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

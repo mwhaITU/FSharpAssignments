@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iVZFZLEbCo6g6E6mUfUyNvuWtUDF+sVtOQTrBtZ/UDA4JKK4IlqZYettxV6vFqiHMAaYqUaGYeQONl6zI4k6vQ==",
+  "dgSpecHash": "YiuXWglBiWnePQ4bZeaZr3HMQazm4KXPfnp/DVI1id3D72QstWhVvWaHEtjoP9Feld4glEpxYad1zrMyo0p3zA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mar20\\Desktop\\F#\\FSharpAssignments\\Assignment 7\\Assignment7\\Assignment7.fsproj",
+  "projectFilePath": "c:\\Users\\mar20\\Desktop\\F#\\FSharpAssignments\\Assignment 7\\Assignment7\\Assignment7.fsproj",
   "expectedPackageFiles": [
     "C:\\Users\\mar20\\.nuget\\packages\\fparsec\\1.1.1\\fparsec.1.1.1.nupkg.sha512",
     "C:\\Users\\mar20\\.nuget\\packages\\fsharp.core\\7.0.0\\fsharp.core.7.0.0.nupkg.sha512"

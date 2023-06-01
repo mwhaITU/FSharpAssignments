@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mar20\\Desktop\\F#\\FSharpAssignments\\Assignment 7\\Assignment7\\Assignment7.fsproj": {}
+    "c:\\Users\\mar20\\Desktop\\F#\\FSharpAssignments\\Assignment 7\\Assignment7\\Assignment7.fsproj": {}
   },
   "projects": {
-    "C:\\Users\\mar20\\Desktop\\F#\\FSharpAssignments\\Assignment 7\\Assignment7\\Assignment7.fsproj": {
+    "c:\\Users\\mar20\\Desktop\\F#\\FSharpAssignments\\Assignment 7\\Assignment7\\Assignment7.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mar20\\Desktop\\F#\\FSharpAssignments\\Assignment 7\\Assignment7\\Assignment7.fsproj",
+        "projectUniqueName": "c:\\Users\\mar20\\Desktop\\F#\\FSharpAssignments\\Assignment 7\\Assignment7\\Assignment7.fsproj",
         "projectName": "Assignment7",
-        "projectPath": "C:\\Users\\mar20\\Desktop\\F#\\FSharpAssignments\\Assignment 7\\Assignment7\\Assignment7.fsproj",
+        "projectPath": "c:\\Users\\mar20\\Desktop\\F#\\FSharpAssignments\\Assignment 7\\Assignment7\\Assignment7.fsproj",
         "packagesPath": "C:\\Users\\mar20\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mar20\\Desktop\\F#\\FSharpAssignments\\Assignment 7\\Assignment7\\obj\\",
+        "outputPath": "c:\\Users\\mar20\\Desktop\\F#\\FSharpAssignments\\Assignment 7\\Assignment7\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

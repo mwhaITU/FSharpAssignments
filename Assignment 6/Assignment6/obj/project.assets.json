@@ -60,7 +60,7 @@
   },
   "libraries": {
     "FSharp.Core/7.0.0": {
-      "sha512": "xPww0dhsH7o373ZNFY1Y08WRsJJUUzqGk0AIUxxUxSJkWqul0UwCBXg6UmqJX76VdiSvvEXn4SYwX8lYQaZzuQ==",
+      "sha512": "8hzwUheAViWMAHWQTr6kR/19C4LhjZ4TlftKfNeZO9y7XnRUzLTK6FJS1C+0oObuUe0e4KndYxjWE+Zgea9YXQ==",
       "type": "package",
       "path": "fsharp.core/7.0.0",
       "files": [
@@ -108,27 +108,29 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\EG\\.nuget\\packages\\": {}
+    "C:\\Users\\mar20\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\EG\\Desktop\\F#\\FSharpAssignments\\Assignment 6\\Assignment6\\Assignment6.fsproj",
+      "projectUniqueName": "c:\\Users\\mar20\\Desktop\\F#\\FSharpAssignments\\Assignment 6\\Assignment6\\Assignment6.fsproj",
       "projectName": "Assignment6",
-      "projectPath": "C:\\Users\\EG\\Desktop\\F#\\FSharpAssignments\\Assignment 6\\Assignment6\\Assignment6.fsproj",
-      "packagesPath": "C:\\Users\\EG\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\EG\\Desktop\\F#\\FSharpAssignments\\Assignment 6\\Assignment6\\obj\\",
+      "projectPath": "c:\\Users\\mar20\\Desktop\\F#\\FSharpAssignments\\Assignment 6\\Assignment6\\Assignment6.fsproj",
+      "packagesPath": "C:\\Users\\mar20\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\mar20\\Desktop\\F#\\FSharpAssignments\\Assignment 6\\Assignment6\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\EG\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\mar20\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.100\\FSharp\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.105\\FSharp\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -165,7 +167,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.105\\RuntimeIdentifierGraph.json"
       }
     }
   }
