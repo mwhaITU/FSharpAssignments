@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\EG\\Desktop\\F#\\FSharpAssignments\\Assignment 6\\Assignment6\\Assignment6.fsproj": {}
+    "c:\\Users\\EG\\Desktop\\4 Semester\\F#\\FSharpAssignments\\Assignment 6\\Assignment6\\Assignment6.fsproj": {}
   },
   "projects": {
-    "C:\\Users\\EG\\Desktop\\F#\\FSharpAssignments\\Assignment 6\\Assignment6\\Assignment6.fsproj": {
+    "c:\\Users\\EG\\Desktop\\4 Semester\\F#\\FSharpAssignments\\Assignment 6\\Assignment6\\Assignment6.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EG\\Desktop\\F#\\FSharpAssignments\\Assignment 6\\Assignment6\\Assignment6.fsproj",
+        "projectUniqueName": "c:\\Users\\EG\\Desktop\\4 Semester\\F#\\FSharpAssignments\\Assignment 6\\Assignment6\\Assignment6.fsproj",
         "projectName": "Assignment6",
-        "projectPath": "C:\\Users\\EG\\Desktop\\F#\\FSharpAssignments\\Assignment 6\\Assignment6\\Assignment6.fsproj",
+        "projectPath": "c:\\Users\\EG\\Desktop\\4 Semester\\F#\\FSharpAssignments\\Assignment 6\\Assignment6\\Assignment6.fsproj",
         "packagesPath": "C:\\Users\\EG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EG\\Desktop\\F#\\FSharpAssignments\\Assignment 6\\Assignment6\\obj\\",
+        "outputPath": "c:\\Users\\EG\\Desktop\\4 Semester\\F#\\FSharpAssignments\\Assignment 6\\Assignment6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\EG\\AppData\\Roaming\\NuGet\\NuGet.Config",
