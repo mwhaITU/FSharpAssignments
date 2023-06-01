@@ -1,10 +1,16 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "kjGdjTgYMlZLeVnqC/n1f1YBqWbLgXbXaX0hrgqKQIQrEqQsPMVoMlrQcrYbCOeC+8x6rLe9Ax0ZfLQr8Yh7+Q==",
   "success": true,
   "projectFilePath": "c:\\Users\\EG\\Desktop\\4 Semester\\F#\\FSharpAssignments\\Assignment 6\\Assignment6\\Assignment6.fsproj",
+=======
+  "dgSpecHash": "6sOrP0awfEEc6qRh1mCiM6n5BzHmMKAnyTAiQ++As5J+Cjyj3Npxq9Mrm2jbUt/cxSIHK0B1izEuPPxwRA/Upw==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\mar20\\Desktop\\F#\\FSharpAssignments\\Assignment 6\\Assignment6\\Assignment6.fsproj",
+>>>>>>> bfd66a47f2f7bab6a7d706fc1168933f7b9804d6
   "expectedPackageFiles": [
-    "C:\\Users\\EG\\.nuget\\packages\\fsharp.core\\7.0.0\\fsharp.core.7.0.0.nupkg.sha512"
+    "C:\\Users\\mar20\\.nuget\\packages\\fsharp.core\\7.0.0\\fsharp.core.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }
